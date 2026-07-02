@@ -150,4 +150,4 @@ The complete **USOIL** archive on **[ork.ad](https://ork.ad/)** includes **13 OH
 **[→ Get the full USOIL dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · USOIL 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-01 UTC*
+*GetData · USOIL 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-02 UTC*
