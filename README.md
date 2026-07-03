@@ -1,6 +1,6 @@
 # USOIL 1m OHLCV Commodities Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_622_739_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)]() [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_628_269_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)]() [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full USOIL dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 1-minute OHLCV** for **WTI Crude Oil** (Commodities)
 - **Extended-session energy and industrial metals — beyond US cash hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m` only) · **13 timeframes** on [ork.ad](https://ork.ad/) · **5,622,739** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m` only) · **13 timeframes** on [ork.ad](https://ork.ad/) · **5,628,269** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `USOIL_1m.csv` (171,581 rows, `2025-12-26` → `2026-06-26`). **Full archive on [ork.ad](https://ork.ad/)** — **5,622,739** `1m` rows (~289.1 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2009-03-11` → `2026-06-26`.
+> **Sample on GitHub** · `USOIL_1m.csv` (172,189 rows, `2026-01-04` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **5,628,269** `1m` rows (~289.39 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2009-03-11` → `2026-07-02`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/usoil-1m-ohlcv-commoditie
 |---|--:|---|
 | Instrument | WTI Crude Oil · Commodities | WTI Crude Oil · Commodities |
 | Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 171,581 | **5,622,739** |
-| Size | 8.75 MB | ~289.1 MB |
-| Period | `2025-12-26` → `2026-06-26` | `2009-03-11` → `2026-06-26` |
+| 1m rows | 172,189 | **5,628,269** |
+| Size | 9.43 MB | ~289.39 MB |
+| Period | `2026-01-04` → `2026-07-02` | `2009-03-11` → `2026-07-02` |
 | File | `USOIL_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`USOIL_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-12-26T20:44:00Z | 56.839 | 56.847 | 56.833 | 56.833 | 18 |
-| 2025-12-26T20:45:00Z | 56.833 | 56.834 | 56.819 | 56.832 | 17 |
-| 2025-12-26T20:46:00Z | 56.832 | 56.864 | 56.832 | 56.858 | 10 |
-| 2025-12-26T20:47:00Z | 56.858 | 56.863 | 56.848 | 56.852 | 14 |
-| 2025-12-26T20:48:00Z | 56.852 | 56.867 | 56.852 | 56.857 | 8 |
+| 2026-01-04T23:01:00Z | 57.2886 | 57.2886 | 56.7946 | 56.9306 | 440 |
+| 2026-01-04T23:02:00Z | 56.9306 | 57.0706 | 56.8886 | 57.0296 | 305 |
+| 2026-01-04T23:03:00Z | 57.0296 | 57.0436 | 56.9106 | 56.9506 | 153 |
+| 2026-01-04T23:04:00Z | 56.9506 | 57.0446 | 56.8896 | 57.0446 | 150 |
+| 2026-01-04T23:05:00Z | 57.0446 | 57.1686 | 57.0206 | 57.1506 | 153 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-26T20:40:00Z | 69.701 | 69.733 | 69.651 | 69.657 | 223.00 |
-| 2026-06-26T20:41:00Z | 69.657 | 69.713 | 69.567 | 69.685 | 195.00 |
-| 2026-06-26T20:42:00Z | 69.685 | 69.847 | 69.673 | 69.729 | 213.00 |
-| 2026-06-26T20:43:00Z | 69.729 | 69.796 | 69.69 | 69.733 | 192.00 |
+| 2026-07-02T22:28:00Z | 68.473 | 68.473 | 68.463 | 68.463 | 3.00 |
+| 2026-07-02T22:29:00Z | 68.463 | 68.464 | 68.452 | 68.464 | 2.00 |
+| 2026-07-02T22:30:00Z | 68.464 | 68.464 | 68.423 | 68.464 | 11.00 |
+| 2026-07-02T22:31:00Z | 68.464 | 68.471 | 68.452 | 68.467 | 8.00 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USOIL** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **5,622,739** rows at `1m`, plus all higher timeframes in the same ZIP.
+The complete **USOIL** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **5,628,269** rows at `1m`, plus all higher timeframes in the same ZIP.
 
 **[→ Get the full USOIL dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · USOIL 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-02 UTC*
+*GetData · USOIL 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
